@@ -1,0 +1,95 @@
+
+/************************* Loader css starts ************************************/
+
+/*@import url("https://fonts.googleapis.com/css?family=Roboto:300");*/
+
+.loader {
+	width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    background: rgba(120, 123, 123, 0.17);
+    z-index: 99999999;
+}
+.loader-container {
+	width: 100%;
+    margin: 2em auto;
+    text-align: center;
+    top: 20em;
+    position: relative;
+}
+.loader-container .ball {
+	width: 1em;
+	height: 1em;
+	margin: 0 auto;
+	border-radius: 1em;
+	background: #63e67c;
+	-webkit-animation: load 2000ms linear infinite;
+	-moz-animation: load 2000ms linear infinite;
+	animation: load 2000ms linear infinite;
+}
+.loader-container span {
+	display: block;
+	margin: 0.5em 0 0 0;
+	color: #65b558;
+	text-transform: capitalize;
+	font-family: 'Roboto', sans-serif;
+	-webkit-animation: pulse 2000ms linear infinite;
+	-moz-animation: pulse 2000ms linear infinite;
+	animation: pulse 2000ms linear infinite;
+}
+
+@-webkit-keyframes pulse {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.25;
+	}
+}
+@keyframes pulse {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.25;
+	}
+}
+@-webkit-keyframes load {
+	0%, 100% {
+		-webkit-transform: scale(1) translateX(0);
+		transform: scale(1) translateX(0);
+	}
+	25% {
+		-webkit-transform: scale(0.25) translateX(-6.5em);
+		transform: scale(0.25) translateX(-6.5em);
+	}
+	50% {
+		-webkit-transform: scale(0.15) translateX(0);
+		transform: scale(0.15) translateX(0);
+	}
+	75% {
+		-webkit-transform: scale(0.25) translateX(6.5em);
+		transform: scale(0.25) translateX(6.5em);
+	}
+}
+@keyframes load {
+	0%, 100% {
+		-webkit-transform: scale(1) translateX(0);
+		transform: scale(1) translateX(0);
+	}
+	25% {
+		-webkit-transform: scale(0.25) translateX(-6.5em);
+		transform: scale(0.25) translateX(-6.5em);
+	}
+	50% {
+		-webkit-transform: scale(0.15) translateX(0);
+		transform: scale(0.15) translateX(0);
+	}
+	75% {
+		-webkit-transform: scale(0.25) translateX(6.5em);
+		transform: scale(0.25) translateX(6.5em);
+	}
+}
+
+/************************* Loader css ends ************************************/

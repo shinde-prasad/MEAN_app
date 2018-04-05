@@ -1,0 +1,18 @@
+<!-- public/views/home.html -->
+<md-content layout-padding>
+	<!-- <h1>Home Page</h1> -->
+
+	<md-list flex>
+
+		<md-subheader class="md-no-sticky">List of registered users in mongoDB:. </md-subheader>
+		<md-list-item ng-click="redirectToUserDetails(item.id, item.name)" class="md-3-line" ng-repeat="item in data track by $index">
+			<img alt="Photo" src="/assets/img/avatar.PNG" />
+			<div flex="80" class="md-list-item-text" layout="column">
+				<h3 class="text-capitalize">{{item.name}}</h3>
+			</div>
+			<md-divider ng-show="data.length > 1"></md-divider>
+		</md-list-item>
+
+	</md-list>
+
+</md-content>

@@ -1,0 +1,53 @@
+<!-- <div class="hide loader">
+	<div class="loader-container">
+		<div class="ball"></div><span>Loading</span>
+	</div>
+</div>
+<div class="container">
+	
+</div> -->
+
+
+<md-toolbar class="md-primary">
+	<div class="md-toolbar-tools">
+		<md-button class="md-icon-button" ng-click="clickSide('left')">
+			<!-- For modern browsers. -->
+			<i class="material-icons">menu</i>
+		</md-button>
+		<h2><a href="/app/home">Logo here</a></h2>
+	</div>
+</md-toolbar>
+<md-sidenav md-component-id="left" class="md-sidenav-left md-whiteframe-z2" layout="column">
+	<md-list>
+		<md-list-item>
+			<md-item-content md-ink-ripple>
+				<div class="inset">About Us</div>
+			</md-item-content>
+		</md-list-item>
+		<md-list-item>
+			<md-item-content md-ink-ripple>
+				<div class="inset">Contact Us</div>
+			</md-item-content>
+		</md-list-item>
+		<md-list-item>
+			<md-item-content md-ink-ripple>
+				<div class="inset">
+					<a  href="/">Logout</a>
+				</div>
+			</md-item-content>
+		</md-list-item>
+	</md-list>
+</md-sidenav>
+<md-content flex>
+	<div ui-view class="child-ui-view" name="appContent">
+		content
+	</div>
+</md-content>
+
+<md-toolbar class="md-primary">
+	<footer layout layout-align="right center">
+		<div >
+			<div>Footer</div>
+		</div>
+	</footer>
+</md-toolbar>

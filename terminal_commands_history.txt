@@ -1,0 +1,1000 @@
+ 1006  docker inspect hornetfileexporter_proxy.hornet.hitachi.net
+ 1007  docker ps -a
+ 1008  docker inspect 1c5758c0814e
+ 1009  docker ps -a
+ 1010  docker inspect 4f3c57fb627c
+ 1011  docker ps -a
+ 1012  ./bin/www.sh stop development -c
+ 1013  docker ps -a
+ 1014  git status ./bin/www.sh stop development -c
+ 1015  git diff datastore/config/config.js
+ 1016  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1017  docker ps -a
+ 1018  docker start 67a2bd3a51db
+ 1019  docker ps -a
+ 1020  ./bin/www.sh stop development -c
+ 1021  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1022  docker ps -a
+ 1023  ./bin/www.sh stop development -c
+ 1024  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1025  git status
+ 1026  git diff datastore/config/config.js
+ 1027  git diff datastore/routes/api.js
+ 1028  git status
+ 1029  git diff datastore/config/config.js
+ 1030  docker ps -a
+ 1031  docker logs a74c8386b3f9
+ 1032  docker start a74c8386b3f9
+ 1033  docker ps -a
+ 1034  ./bin/www.sh stop development -c
+ 1035  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1036  ./bin/www.sh stop development -c
+ 1037  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1038  ./bin/www.sh stop development -c
+ 1039  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1040  docker ps -a
+ 1041  docker start 74437c4f67b0
+ 1042  ./bin/www.sh stop development -c
+ 1043  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1044  docker ps -a
+ 1045  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1046  docker ps -a
+ 1047  docker start 6785fd7e5a16
+ 1048  docker ps -a
+ 1049  ./bin/www.sh stop development -c
+ 1050  docker rm $(docker ps -a -q)
+ 1051  docker rm (docker ps -a -q)
+ 1052  docker rm docker ps -a -q
+ 1053  docker rm $(docker ps -a -q)
+ 1054  docker volume rm $(docker volume ls -q)
+ 1055  docker ps -a
+ 1056  docker images
+ 1057  docker volume
+ 1058  docker volume ls
+ 1059  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1060  docker network ls
+ 1061  docker rmc $(docker ps -a -q)
+ 1062  docker rmc --help
+ 1063  docker container $(docker ps -a -q)
+ 1064  docker rm $(docker ps -a -q)
+ 1065  docker ps -a -q
+ 1066  git status
+ 1067  ./bin/www.sh start development -pu "http://localhost:7000"
+ 1068  docker rm $(docker ps -a -q)
+ 1069  ./bin/www.sh stop development -c
+ 1070  docker rm $(docker ps -a -q)
+ 1071  docker volume rm $(docker volume ls -q)
+ 1072  docker volume ls
+ 1073  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1074  docker network ls
+ 1075  git remote get-url origin
+ 1076  cd ..
+ 1077  mkdir misclassification
+ 1078  cd misclassification/
+ 1079  cd ..
+ 1080  ls
+ 1081  cd misclassification/
+ 1082  GIT_SSL_NO_VERIFY=true git clone https://github.gotp.gdllab.net/hornet/Hornet-Web/feature/17/uploader-for-misclassification.git
+ 1083  cd ..
+ 1084  cd Hornet-Web/Hornet-Web/
+ 1085  git branch
+ 1086  GIT_SSL_NO_VERIFY=true git clone https://github.gotp.gdllab.net/hornet/Hornet-Web.git
+ 1087  git checkout feature/17/uploader-for-misclassification
+ 1088  git fetch
+ 1089  GIT_SSL_NO_VERIFY=true  git fetch
+ 1090  git diff datastore/config/config.js
+ 1091  git diff datastore/routes/api.js
+ 1092  git status
+ 1093  cd ..
+ 1094  cd misclassification/
+ 1095  GIT_SSL_NO_VERIFY=true git clone https://github.gotp.gdllab.net/hornet/Hornet-Web.git
+ 1096  git checkout feature/17/uploader-for-misclassification
+ 1097  ls
+ 1098  cd Hornet-Web/
+ 1099  git checkout feature/17/uploader-for-misclassification
+ 1100  git status
+ 1101  GIT_SSL_NO_VERIFY=true  git fetch
+ 1102  docker ps -a -q
+ 1103  docker ps -a
+ 1104  ./bin/www.sh start  development
+ 1105  docker ps -a -q
+ 1106  docker ps -a
+ 1107  ./bin/www.sh start  development
+ 1108  docker ps -a
+ 1109  docker logs 858bdd5cd2a2
+ 1110  docker start 858bdd5cd2a2
+ 1111  docker logs 858bdd5cd2a2
+ 1112  docker ps -a
+ 1113  ./bin/www.sh stop development -c
+ 1114  ./bin/www.sh start development
+ 1115  docker ps -a
+ 1116  ./bin/www.sh stop development -c
+ 1117  ./bin/www.sh start development
+ 1118  ./bin/www.sh stop development -c
+ 1119  ./bin/www.sh start development
+ 1120  docker ps -a
+ 1121  ./bin/www.sh stop development -c
+ 1122  ./bin/www.sh start development
+ 1123  docker ps -a
+ 1124  ./bin/www.sh stop development -c
+ 1125  git status
+ 1126  git checkout docker-compose.dev.yml
+ 1127  git status
+ 1128  docker network ls
+ 1129  ./bin/www.sh start development
+ 1130  git status
+ 1131  git diff  docker-compose.dev.yml
+ 1132  git diff proxy/haproxy.cfg
+ 1133  ./bin/www.sh stop development -c
+ 1134  git status
+ 1135  ./bin/www.sh start development
+ 1136  docker rm $(docker ps -a -q)
+ 1137  ./bin/www.sh stop development -c
+ 1138  docker rm $(docker ps -a -q)
+ 1139  docker volume rm $(docker volume ls -q)
+ 1140  docker volume
+ 1141  docker volume ks
+ 1142  docker volume ls
+ 1143  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1144  docker ps -a
+ 1145  netstat -npla | grep 27017
+ 1146  netstat -tulpn
+ 1147  telnet localhost 3003
+ 1148  iptables -L
+ 1149  docker run -d --name angular-client -p 5200:5200 angular-client:dev
+ 1150  whoami
+ 1151  node --v
+ 1152  node -version
+ 1153  node -v
+ 1154  npm -v
+ 1155  npm i -g npm to update
+ 1156  npm -v
+ 1157  sudo npm install -g angular-cli
+ 1158  cd angular-client
+ 1159  ng init
+ 1160  ng set --global warnings.packageDeprecation=false
+ 1161  ng init
+ 1162  ng serve
+ 1163  ng init
+ 1164  ng serve
+ 1165  ng serve --port 5200
+ 1166  docker build -t angular-client:dev .
+ 1167  docker pull mongo
+ 1168  cd ..
+ 1169  docker pull mongo
+ 1170  sudo service mongod start
+ 1171  netstat -npla | grep 27017
+ 1172  docker run -d --name angular-client  angular-client:dev
+ 1173  docker images
+ 1174  docker ps -a
+ 1175  docker stop angular-client
+ 1176  docker ps -a
+ 1177  mkdir express-server
+ 1178  cd express-server/
+ 1179  touch server.js
+ 1180  ls
+ 1181  mkdir routes && cd routes
+ 1182  touch api.js
+ 1183  cd..
+ 1184  cd ..
+ 1185  ls
+ 1186  npm install && npm start
+ 1187  docker build -t express-server:dev .
+ 1188  docker ps -a q
+ 1189  docker ps -a -q
+ 1190  docker ps -a
+ 1191  docker start angular-client:dev
+ 1192  docker start 59340dedb21c
+ 1193  docker ps -a
+ 1194  docker rm 59340dedb21c
+ 1195  docker rm 59340dedb21c -f
+ 1196  docker ps -a
+ 1197  docker run -d --name express-server -p 3000:3000 express-server:dev
+ 1198  docker ps -a
+ 1199  docker stop express-server:dev
+ 1200  docker stop 9420d5ed1b59
+ 1201  docker rm  9420d5ed1b59-f
+ 1202  docker rm  9420d5ed1b59 -f
+ 1203  docker ps -a
+ 1204  docker run -d --name express-server  express-server:dev
+ 1205  docker ps -a
+ 1206  docker stop express-server
+ 1207  docker ps -a
+ 1208  docker stop angular-client
+ 1209  docker ps -a
+ 1210  docker run -d --name mongodb -p 27017:27017 mongo
+ 1211  docker ps -a
+ 1212  docker inspect da5646b01919
+ 1213  mongo
+ 1214  cd ..
+ 1215  docker-compose
+ 1216  touch docker-compose.yml
+ 1217  docker-compose up
+ 1218  ps aux | grep 27017
+ 1219  kill -9 14228
+ 1220  kill -9 270392
+ 1221  kill -9 2572
+ 1222  kill -9 1064
+ 1223  ps aux | grep 27017
+ 1224  ps aux | grep 27
+ 1225  kill -9 270392
+ 1226  ps aux | grep 27017
+ 1227  kill -9 12922
+ 1228  kill -9 10490
+ 1229  ps aux | grep 27017
+ 1230  ps aux | grep 12948
+ 1231  kill -9 14228
+ 1232  kill -9 12951
+ 1233  kill -9 12948
+ 1234  ps aux | grep 27017
+ 1235  docker ps -a
+ 1236  docker rm 8563947f1f88
+ 1237  docker rm b324a879b89c
+ 1238  docker ps -a
+ 1239  docker rm da5646b01919
+ 1240  docker rm da5646b01919 -f
+ 1241  docker ps -a
+ 1242  docker rm 3991e25d4e78 59f0aeb450c4 9074ba8604a5 -f
+ 1243  docker ps -a
+ 1244  docker-compose up
+ 1245  docker-compose up --build
+ 1246  show dbs;
+ 1247  mongod
+ 1248  docker ps -a
+ 1249  docker-compose up --build
+ 1250  mongo
+ 1251  docker ps -a
+ 1252  docker inspect 864d88132d7d
+ 1253  docker --help
+ 1254  docker exec mongo
+ 1255  docker ps -a
+ 1256  docker exec 864d88132d7d
+ 1257  docker exec --help
+ 1258  docker exec -i 864d88132d7d
+ 1259  docker exec -i mongo
+ 1260  docker exec -it 864d88132d7d sh
+ 1261  docker ps -a
+ 1262  pwd
+ 1263  exit
+ 1264  pwd
+ 1265  docker-compose up --build
+ 1266  docker exec -it 864d88132d7d sh
+ 1267  docker ps -a
+ 1268  ./bin/www.sh start development -pu "http://localhost:3000"
+ 1269  docker rm $(docker ps -a -q)
+ 1270  docker volume rm $(docker volume ls -q)
+ 1271  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1272  docker ps -a
+ 1273  docker rm 0641f59a7556
+ 1274  docker rm 0641f59a7556 -f
+ 1275  docker ps -a
+ 1276  ./bin/www.sh start development -pu "http://localhost:3000"
+ 1277  docker ps -a
+ 1278  git status
+ 1279  git status -a
+ 1280  git branch -a
+ 1281  git pull origin remotes/origin/master
+ 1282  GIT_SSL_NO_VERIFY=true  git pull origin remotes/origin/master
+ 1283  GIT_SSL_NO_VERIFY=true  git pull origin origin/master
+ 1284  GIT_SSL_NO_VERIFY=true  git pull origin master
+ 1285  git checkout feature/17/uploader-for-misclassification
+ 1286  git pull origin feature/17/uploader-for-misclassification
+ 1287  GIT_SSL_NO_VERIFY=true  git pull origin feature/17/uploader-for-misclassification
+ 1288  ./bin/www.sh start development -pu "http://localhost:3000"
+ 1289  ./bin/www.sh stop development -c
+ 1290  ./bin/www.sh start development
+ 1291  git status
+ 1292  git checkout docker-compose.dev.yml file-exporter/routes/api.js
+ 1293  git checkout docker-compose.dev.yml file-exporter/routes/api.js proxy/haproxy.cfg
+ 1294  git status
+ 1295  git branch
+ 1296  git pull origin
+ 1297  ./bin/www.sh start development
+ 1298  docker ps -a
+ 1299  docker-compose up --build
+ 1300  ls
+ 1301  cd ..
+ 1302  ls
+ 1303  Docker-MEAN-App/
+ 1304  cd Docker-MEAN-App/
+ 1305  ls
+ 1306  docker-compose up --build
+ 1307  docker-compose build
+ 1308  docker-compose up
+ 1309  docker ps -a
+ 1310  docker ps 0a
+ 1311  docker ps -a
+ 1312  docker rm --help
+ 1313  docker-compose up --build
+ 1314  docker-compose build
+ 1315  docker-compose up
+ 1316  docker-compose build
+ 1317  docker-compose up
+ 1318  docker-compose build
+ 1319  docker-compose up
+ 1320  docker-compose up --build
+ 1321  cd .
+ 1322  cd ..
+ 1323  docker ps -a
+ 1324  docker rm 2d8afd2fa1eb
+ 1325  docker ps -a
+ 1326  curl -ik "http://localhost:5000/api/file/status"
+ 1327  curl -ik "http://localhost:3003/api/datastore/status"
+ 1328  ufw disable
+ 1329  curl -ik "http://localhost:3003/api/datastore/status"
+ 1330  netstat -npla | grep 3003
+ 1331  curl -ik "http://localhost:3000/api/datastore/status"
+ 1332  curl -X GET "https://localhost:4200/api/datastore/status" -H  "accept: application/json"
+ 1333  curl -ik GET "https://localhost:4200/api/datastore/status" -H  "accept: application/json"
+ 1334  docker ps -a
+ 1335  cd datastore/
+ 1336  npm install
+ 1337  npm start
+ 1338  curl -ik GET "https://localhost:4200/api/datastore/status" -H  "accept: application/json"
+ 1339  cd ..
+ 1340  curl -ik GET "https://localhost:3000/api/datastore/status" -H  "accept: application/json"
+ 1341  curl -ik GET "http://localhost:3000/api/datastore/status"
+ 1342  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3000/api/datastore/bucket/
+ 1343  curl -ik k GET "http://localhost:3000/api/datastore/status"
+ 1344  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3000/api/datastore/bucket/
+ 1345  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3003/api/datastore/bucket/
+ 1346  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" https://localhost:3000/api/datastore/bucket/
+ 1347  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3000/api/datastore/bucket/
+ 1348  curl -ik k GET "http://localhost:3000/api/datastore/status"
+ 1349  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3000/api/datastore/bucket/
+ 1350  curl -ik -X POST -F "file=@/media/prasad/D0A2B33FA2B328BC/Projects/Hornet-UI/Images/IST PST Timezone.png" http://localhost:3000/api/datastore/bucket/
+ 1351  whereis nginx
+ 1352  apt-get uninstall nginx
+ 1353  apt-get remove nginx
+ 1354  whereis nginx
+ 1355  curl -ik -X POST -F "file=@/home/prasad/Documents/test.txt" http://localhost:3003/api/datastore/bucket/
+ 1356  curl -ik GET "http://localhost:3003/api/datastore/status"
+ 1357  ./bin/www.sh start development
+ 1358  cat /root/.npm/_logs/2018-02-21T10_55_43_177Z-debug.log
+ 1359  cat /root/.npm/_logs/
+ 1360  ls
+ 1361  pwd
+ 1362  ./bin/www.sh start development
+ 1363  ./bin/www.sh stop development -c
+ 1364  docker volume ls
+ 1365  docker volume --help
+ 1366  docker volume prune
+ 1367  docker volume ls
+ 1368  ./bin/www.sh stop development -c
+ 1369  ./bin/www.sh start development
+ 1370  ./bin/www.sh stop development -c
+ 1371  ./bin/www.sh start development
+ 1372  ./bin/www.sh stop development -c
+ 1373  ./bin/www.sh start development
+ 1374  ./bin/www.sh stop development -c
+ 1375  ./bin/www.sh start development
+ 1376  ./bin/www.sh stop development -c
+ 1377  ./bin/www.sh start development
+ 1378  ./bin/www.sh stop development -c
+ 1379  ./bin/www.sh start development
+ 1380  ./bin/www.sh stop development -c
+ 1381  ./bin/www.sh start development
+ 1382  ./bin/www.sh stop development -c
+ 1383  ./bin/www.sh start development
+ 1384  git status
+ 1385  docker network ls
+ 1386  docker ps -a
+ 1387  ./bin/www.sh stop development -c
+ 1388  docker network ls
+ 1389  docker network prune
+ 1390  docker network ls
+ 1391  ./bin/www.sh start development
+ 1392  curl -ik -X POST -F "file=@/media/prasad/D0A2B33FA2B328BC/Projects/Hornet-UI/Images/docker ps.png" http://localhost:3000/api/datastore/bucket
+ 1393  ./bin/www.sh stop development -c
+ 1394  docker ps -a
+ 1395  lfw disable
+ 1396  ./bin/www.sh stop development -c
+ 1397  ./bin/www.sh start development
+ 1398  docker ps -a
+ 1399  git status
+ 1400  git diff proxy/haproxy.cfg
+ 1401  git diff
+ 1402  git diff file-exporter/server.js
+ 1403  git checkout file-exporter/server.js
+ 1404  git status
+ 1405  git diff file-exporter/routes/api.js
+ 1406  git diff file-exporter/Dockerfile.dev
+ 1407  git diff docker-compose.dev.yml
+ 1408  git status
+ 1409  git diff docker-compose.dev.yml
+ 1410  git checkout docker-compose.dev.yml
+ 1411  git status
+ 1412  docker ps -a
+ 1413  ./bin/www.sh start development
+ 1414  ./bin/www.sh stop development -c
+ 1415  docker ps -a
+ 1416  ./bin/www.sh start development
+ 1417  docker ps -a
+ 1418  docker logs 4c701877432c
+ 1419  docker start 4c701877432c
+ 1420  docker logs 4c701877432c
+ 1421  docker ps -a
+ 1422  docker rm $(docker ps -a -q)
+ 1423  docker volume rm $(docker volume ls -q)
+ 1424  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1425  docker ps -a
+ 1426  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1427  docker ps -a
+ 1428  docker inspect 978a56318be8
+ 1429  docker rm 978a56318be8 -f
+ 1430  docker ps -a
+ 1431  docker rm ce66b0ac47fa 904d882b43ab 3d9dc7653e6e -f
+ 1432  docker ps -a
+ 1433  cd datastore/
+ 1434  npm start
+ 1435  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1436  cd ..
+ 1437  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1438  docker ps -a
+ 1439  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1440  docker ps -a
+ 1441  docker inspect 066f286d7e8d
+ 1442  docker ps -a
+ 1443  docker inspect f0e9e307edae
+ 1444  docker exec -it f0e9e307edae sh
+ 1445  docker ps -a
+ 1446  docker exec -it 066f286d7e8d sh
+ 1447  docker exec -it abae35b04b5e sh
+ 1448  docker inspect abae35b04b5e
+ 1449  docker inspect 066f286d7e8d
+ 1450  docker ps -a
+ 1451  docker inspect 066f286d7e8d
+ 1452  docker inspect abae35b04b5e
+ 1453  docker ps -a
+ 1454  docker network inspect hornetweb_datastore.hornet.hitachi.net_1
+ 1455  docker network inspect 066f286d7e8d
+ 1456  docker network ls
+ 1457  docker network inspect hornetfileexporter_default
+ 1458  docker network ls
+ 1459  docker network inspect hornetweb_default
+ 1460  docker network ls
+ 1461  ps aux | grep node
+ 1462  docker network ls
+ 1463  ./bin/www.sh stop development -c
+ 1464  docker network ls
+ 1465  docker network --help
+ 1466  docker network prune
+ 1467  docker network ls
+ 1468  docker network prune
+ 1469  docker network ls
+ 1470  docker network rm 0b72b5c6c84c
+ 1471  docker network --help
+ 1472  docker network disconnect 0b72b5c6c84c
+ 1473  ./bin/www.sh stop development -c
+ 1474  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1475  docker network ls
+ 1476  ./bin/www.sh stop development -c
+ 1477  docker network ls
+ 1478  docker network prune
+ 1479  docker network ls
+ 1480  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1481  docker network ls
+ 1482  ./bin/www.sh stop development -c
+ 1483  docker network prune
+ 1484  docker network ls
+ 1485  docker network  rm 2ce06180c0ea -f
+ 1486  docker network  rm 2ce06180c0ea
+ 1487  ./bin/www.sh stop development -c
+ 1488  docker network prune
+ 1489  docker network ls
+ 1490  docker network  ls
+ 1491  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1492  docker network  ls
+ 1493  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1494  docker network  ls
+ 1495  docker ps -a
+ 1496  docker logs 7d6fae0de082
+ 1497  docker start 7d6fae0de082
+ 1498  docker ps -a
+ 1499  docker logs 7d6fae0de082
+ 1500  docker start 7d6fae0de082
+ 1501  docker logs 7d6fae0de082
+ 1502  docker ps -a
+ 1503  docker logs c2fa3ab52169
+ 1504  default-server init-addr none
+ 1505  docker ps -a
+ 1506  docker logs b7343615002e
+ 1507  docker ps -a
+ 1508  docker network ls
+ 1509  docker network inspect 43da0e2b3529
+ 1510  docker network ls
+ 1511  docker network inspect 35cf67f7d807
+ 1512  docker ps -a
+ 1513  docker inspect ca09bd0ac548
+ 1514  docker ps -a
+ 1515  docker inspect c57fd699d704
+ 1516  docker ps -a
+ 1517  docker exec -it ca09bd0ac548 sh
+ 1518  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1519  docker ps -a
+ 1520  docker inspect
+ 1521  docker inspect CONTAINER ID        IMAGE                                                 COMMAND                  CREATED             STATUS              PORTS                              NAMES
+ 1522  acfd47cbea1f        hornetweb_proxy.hornet.hitachi.net                    "/docker-entrypoin..."   46 seconds ago      Up 44 seconds       0.0.0.0:4200->8080/tcp             hornetweb_proxy.hornet.hitachi.net_1
+ 1523  c5b3677f7bd3        swaggerapi/swagger-ui                                 "sh /usr/share/ngi..."   50 seconds ago      Up 47 seconds       8080/tcp                           hornetweb_datastore-doc.hornet.hitachi.net_1
+ 1524  623b3e995ab5        hornetweb_seismicviewer.hornet.hitachi.net            "catalina.sh run"        53 seconds ago      Up 50 seconds       0.0.0.0:8087->8080/tcp             hornetweb_seismicviewer.hornet.hitachi.net_1
+ 1525  23ac8ab7084a        hornetweb_datastore.hornet.hitachi.net                "npm run-script debug"   53 seconds ago      Up 50 seconds       0.0.0.0:3003->3000/tcp             hornetweb_datastore.hornet.hitachi.net_1
+ 1526  cd64172ad52e        hornetfileexporter_proxy.hornet.hitachi.net           "/docker-entrypoin..."   5 minutes ago       Up 5 minutes        0.0.0.0:5001->8080/tcp             hornetfileexporter_proxy.hornet.hitachi.net_1
+ 1527  dfa45b9ad625        swaggerapi/swagger-ui                                 "sh /usr/share/ngi..."   5 minutes ago       Up 5 minutes        8080/tcp                           hornetfileexporter_doc.file.exporter.hornet.hitachi.net_1
+ 1528  c57fd699d704        hornetfileexporter_file.exporter.hornet.hitachi.net   "npm run-script debug"   5 minutes ago       Up 5 minutes        5000/tcp, 0.0.0.0:5000->3000/tcp   hornetfileexporter_file.exporter.hornet.hitachi.net_1
+ 1529  538517ac0833        swaggerapi/swagger-ui                                 "sh /usr/share/ngi..."   21 minutes ago      Up 21 minutes       8080/tcp                           hornetweb_search-doc.hornet.hitachi.net_1
+ 1530  2dff915771d8        hornetweb_search.hornet.hitachi.net                   "npm run-script debug"   21 minutes ago      Up 21 minutes       0.0.0.0:3007->3000/tcp             hornetweb_search.hornet.hitachi.net_1
+ 1531  c0ccca3c454c        hornetweb_client.hornet.hitachi.net                   "npm run debug-start"    21 minutes ago      Up 21 minutes       4200/tcp                           hornetweb_client.hornet.hitachi.net_1
+ 1532  ./bin/www.sh stop development -c
+ 1533  docker inspect
+ 1534  docker inspect acfd47cbea1f
+ 1535  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1536  docker ps -a
+ 1537  docker inspect 5adf762af073
+ 1538  docker inspect acfd47cbea1f
+ 1539  docker inspect 5adf762af073
+ 1540  docker inspect 4b87414a7af4
+ 1541  docker inspect 2586eba2a81b
+ 1542  docker inspect 4b87414a7af4
+ 1543  docker inspect cf76e52eb297
+ 1544  docker inspect 78607bf5cd1f
+ 1545  docker inspect 1bff96e3ed2c
+ 1546  docker inspect e095de77017b
+ 1547  docker inspect cd64172ad52e
+ 1548  docker inspect dfa45b9ad625
+ 1549  docker inspect c57fd699d704
+ 1550  ./bin/www.sh stop development -c
+ 1551  docker network ls
+ 1552  docker network prune
+ 1553  docker network ls
+ 1554  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1555  docker ps -a
+ 1556  docker logs 01a26a847695
+ 1557  docker ps -a
+ 1558  docker inspect a3b5890507f8
+ 1559  docker ps -a
+ 1560  docker inspect 462f7117cffd
+ 1561  docker ps -a
+ 1562  docker inspect 6726c229b5cf
+ 1563  docker exec -it a3b5890507f8 sh
+ 1564  docker ps -a
+ 1565  docker inspect 27ac9b7bee1d
+ 1566  docker inspect 07b4cbf9bae4
+ 1567  docker ps -a
+ 1568  git status
+ 1569  ./bin/www.sh stop development -c
+ 1570  docker ps -a
+ 1571  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1572  docker ps -a
+ 1573  docker logs b5d5f37a0c92
+ 1574  docker inspect b5d5f37a0c92
+ 1575  docker ps -
+ 1576  docker inspect b5d5f37a0c92
+ 1577  docker inspect 04b13293326a
+ 1578  docker inspect 3d6ff36ec151
+ 1579  docker inspect 50bed02b1cb4
+ 1580  docker inspect 2eb0a40d6a32
+ 1581  docker inspect ad63783bc7db
+ 1582  docker inspect ef0d67229054
+ 1583  docker inspect 8d474121de92
+ 1584  docker inspect fbf1d8517ec8
+ 1585  docker inspect bfe4de7452da
+ 1586  docker network ls
+ 1587  docker network inspect bd1c100e1c12
+ 1588  docker network ls
+ 1589  docker ps -a
+ 1590  cd datastore/
+ 1591  npm start
+ 1592  ufw disable
+ 1593  cd ..
+ 1594  docker exec -it bfe4de7452da sh
+ 1595  docker ps -a
+ 1596  cd datastore/
+ 1597  npm start
+ 1598  git status
+ 1599  npm start
+ 1600  cd ..
+ 1601  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1602  cd datastore/
+ 1603  npm start
+ 1604  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1605  cd ..
+ 1606  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1607  ./bin/www.sh stop development -c
+ 1608  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1609  cd datastore/
+ 1610  npm start
+ 1611  cd ..
+ 1612  ./bin/www.sh stop development -c
+ 1613  ./bin/www.sh start development -pu "http://localhost:5000"
+ 1614  docker ps -a
+ 1615  cd datastore/
+ 1616  npm start
+ 1617  ng serve
+ 1618  ls
+ 1619  npm install angular-cli -g
+ 1620  ng serve
+ 1621  ls
+ 1622  cd ..
+ 1623  ls
+ 1624  cd jidoka/
+ 1625  ls
+ 1626  cd ..
+ 1627  cd UI/
+ 1628  ls
+ 1629  npm install
+ 1630  ng build
+ 1631  ng
+ 1632  ng help
+ 1633  ls
+ 1634  ng serve
+ 1635  npm install -g @angular/cli
+ 1636  ng serve
+ 1637  docker-compose up --build
+ 1638  node -v
+ 1639  npm -v
+ 1640  npm update
+ 1641  npm i -g npm to update
+ 1642  npm install npm@latest -g
+ 1643  npm -v
+ 1644  node --version
+ 1645  docker-compose up --build
+ 1646  npm owner ls express-server
+ 1647  docker-compose up --build
+ 1648  docker-compose up
+ 1649  docker-compose build
+ 1650  docker-compose up
+ 1651  docker ps -a
+ 1652  docker start ca29b3fc73fc
+ 1653  docker ps -a
+ 1654  docker exec -it fd7f4caed9c9 sh
+ 1655  docker-compose build
+ 1656  docker-compose up
+ 1657  docker-compose build
+ 1658  docker-compose up
+ 1659  docker-compose build
+ 1660  docker-compose up
+ 1661  docker-compose build
+ 1662  docker-compose up
+ 1663  docker-compose build
+ 1664  docker-compose up
+ 1665  docker-compose build
+ 1666  docker-compose up
+ 1667  docker-compose build
+ 1668  docker-compose up
+ 1669  docker-compose build
+ 1670  docker-compose up
+ 1671  docker-compose build
+ 1672  docker-compose up
+ 1673  docker-compose build
+ 1674  docker-compose up
+ 1675  docker-compose build
+ 1676  docker-compose up
+ 1677  docker-compose build
+ 1678  docker-compose up
+ 1679  docker-compose build
+ 1680  docker-compose up
+ 1681  docker-compose build
+ 1682  docker-compose up
+ 1683  docker-compose build
+ 1684  docker-compose up
+ 1685  docker-compose build
+ 1686  docker-compose up --build
+ 1687  docker-compose build
+ 1688  docker-compose up
+ 1689  docker-compose build
+ 1690  docker-compose up
+ 1691  docker-compose build
+ 1692  docker-compose up
+ 1693  docker-compose build
+ 1694  docker-compose up
+ 1695  docker-compose build
+ 1696  docker-compose up
+ 1697  docker-compose build
+ 1698  docker-compose up
+ 1699  docker-compose build
+ 1700  docker-compose up
+ 1701  docker-compose build
+ 1702  docker-compose up
+ 1703  docker-compose build
+ 1704  docker-compose up
+ 1705  docker-compose build
+ 1706  docker-compose up
+ 1707  docker-compose build
+ 1708  docker-compose up
+ 1709  docker-compose build
+ 1710  docker-compose up
+ 1711  docker-compose build
+ 1712  docker-compose up
+ 1713  docker-compose build
+ 1714  docker-compose up
+ 1715  docker-compose build
+ 1716  docker-compose up
+ 1717  docker-compose build
+ 1718  docker-compose up
+ 1719  docker-compose build
+ 1720  docker-compose up
+ 1721  docker-compose build
+ 1722  docker-compose up
+ 1723  docker-compose build
+ 1724  docker-compose up
+ 1725  docker-compose build
+ 1726  docker-compose up
+ 1727  docker-compose build
+ 1728  docker-compose up
+ 1729  docker-compose build
+ 1730  docker-compose up
+ 1731  docker-compose build
+ 1732  docker-compose up
+ 1733  docker-compose build
+ 1734  docker-compose up
+ 1735  docker-compose build
+ 1736  docker-compose up
+ 1737  docker-compose build
+ 1738  docker-compose up
+ 1739  docker-compose build
+ 1740  docker-compose up
+ 1741  docker ps -a
+ 1742  docker exec -it 00d08a455387 sh
+ 1743  docker ps -a
+ 1744  docker exec -it 155ebdc84a90 sh
+ 1745  docker ps -a
+ 1746  docker exec -it a38838696266 sh
+ 1747  docker ps -a
+ 1748  docker exec -it 5256a42e01fb sh
+ 1749  docker ps -a
+ 1750  docker exec -it 876f857b2025 sh
+ 1751  docker ps -a
+ 1752  docker exec -it f243b70c1ae4 sh
+ 1753  ls
+ 1754  docker ps -a
+ 1755  docker exec -it 278f6736fe6f sh
+ 1756  docker ps -a
+ 1757  docker exec -it e83417291bfd sh
+ 1758  docker ps -a
+ 1759  docker exec -it 5e367bd12282 sh
+ 1760  docker cp dockermea2napp_express:/usr/src/app/sample_XING_T24_1_converted.png /home/Prasad/Documents
+ 1761  docker cp dockermea2napp_express_1:/usr/src/app/sample_XING_T24_1_converted.png /home/Prasad/Documents
+ 1762  docker cp dockermea2napp_express_1:/usr/src/app/sample_XING_T24_1_converted.png /home/prasad/Documents/
+ 1763  docker cp dockermea2napp_express_1:/usr/src/app/sample_CCITT_1_1_converted.png /home/prasad/Documents/
+ 1764  docker ps -a
+ 1765  docker exec -it efe18c52496c sh
+ 1766  docker ps -a
+ 1767  docker exec -it 4084951dbad8 sh
+ 1768  docker ps -a
+ 1769  docker exec -it d5c6b38eebef sh
+ 1770  docker ps -a
+ 1771  docker exec -it 647446662a40 sh
+ 1772  docker ps -a
+ 1773  docker exec -it 647446662a40 sh
+ 1774  ls
+ 1775  docker ps -a
+ 1776  docker exec -it 647446662a40 sh
+ 1777  docker cp /home/prasad/Documents/XING_T24.TIF dockermea2napp_express_1:/usr/src/app/
+ 1778  docker ps -a
+ 1779  docker exec -it 647446662a40 sh
+ 1780  ls
+ 1781  docker ps -a
+ 1782  docker exec -it 57f986d33973 sh
+ 1783  docker ps -a
+ 1784  docker exec -it 3013906be7ab sh
+ 1785  docker ps -a
+ 1786  docker exec -it 6608c76eb442 sh
+ 1787  apt-get install tomcat7
+ 1788  service tomcat7 start
+ 1789  ps -ef | grep tomcat
+ 1790  find / -name 'tomcat_version' -type d
+ 1791  cd /var/lib/tomcat7/
+ 1792  ls
+ 1793  cd webapps/
+ 1794  ls
+ 1795  cd ROOT/
+ 1796  ls
+ 1797  cat index.html
+ 1798  cd ..
+ 1799  cd home/
+ 1800  clear
+ 1801  apt-get install tomcat8
+ 1802  service tomcat7 stop
+ 1803  apt-get install tomcat8
+ 1804  service tomcat8 start
+ 1805  source ~/.profile
+ 1806  $CATALINA_TMPDIR
+ 1807  $path
+ 1808  $PATH
+ 1809  ENV INT_GEOSERVER_HOME /home/prasad/Downloads/
+ 1810  $INT_GEOSERVER_HOME /home/prasad/Downloads/
+ 1811  $INT_GEOSERVER_HOME /home/prasad/Downloads
+ 1812  $PATH
+ 1813  source ~/.bashrc
+ 1814  INT_GEOSERVER_HOME="/home/prasad/Downloads/"
+ 1815  $INT_GEOSERVER_HOME
+ 1816  ENV INT_GEOSERVER_HOME="/home/prasad/Downloads/"
+ 1817  $INT_GEOSERVER_HOME="/home/prasad/Downloads/"
+ 1818  $INT_GEOSERVER_HOME
+ 1819  ./bin/www.sh start development
+ 1820  docker ps -a
+ 1821  docker logs 4c4247419fe2
+ 1822  ./bin/www.sh start development
+ 1823  docker ps -a
+ 1824  docker logs e7ef070b0184
+ 1825  ./bin/www.sh start development
+ 1826  docker ps -a
+ 1827  docker logs b50d60f1676d
+ 1828  ./bin/www.sh start development
+ 1829  docker ps -a
+ 1830  docker logs 8df1ce49c1b8
+ 1831  docker ps -a
+ 1832  ./bin/www.sh stop development -c
+ 1833  docker ps -a
+ 1834  start tomcat8 service
+ 1835  start tomcat8 services
+ 1836  tomcat8
+ 1837  tomcat7
+ 1838  ./startup.sh
+ 1839  service tomcat8 start
+ 1840  service tomcat7 stop
+ 1841  sudo apt-get uninstall tomcat7
+ 1842  sudo apt remove tomcat7
+ 1843  service tomcat8 stop
+ 1844  service tomcat8 start
+ 1845  service tomcat8 stop
+ 1846  git status
+ 1847  git branch -a
+ 1848  git checkout indexes-metadata-filter
+ 1849  git branch -a
+ 1850  git status
+ 1851  git checkout client/src/app/pipes/escape-metachar.pipe.ts
+ 1852  git status
+ 1853  docker ps 0a
+ 1854  docker ps -a
+ 1855  ./bin/www.sh start development
+ 1856  git status
+ 1857  git checkout client/src/app/docs/doc/doc.component.ts
+ 1858  git status
+ 1859  ./bin/www.sh start development
+ 1860  git branch -a
+ 1861  git status
+ 1862  git add .
+ 1863  git commit -m "git commit -a -m 'metadata filter on UI search indexes' && git push origin feature/18/metadata-filter
+ 1864  git commit -m "git commit -a -m 'metadata filter on UI search indexes' && git push origin feature/18/metadata-filter
+ 1865  git commit -a -m 'metadata filter on UI search indexes' && git push origin feature/18/metadata-filter
+ 1866  git branch -a
+ 1867  git checkout develop/18 && git pull && git merge --no-ff feature/18/metadata-filter
+ 1868  GIT_SSL_NO_VERIFY=true git checkout develop/18 && git pull && git merge --no-ff feature/18/metadata-filter
+ 1869  git branch -a
+ 1870  GIT_SSL_NO_VERIFY=true git pull && git merge --no-ff feature/18/metadata-filter
+ 1871  git checkout remotes/origin/feature/18/metadata-filter
+ 1872  git branch -a
+ 1873  GIT_SSL_NO_VERIFY=true git push origin feature/18/metadata-filter
+ 1874  GIT_SSL_NO_VERIFY=true git push origin remotes/origin/feature/18/metadata-filter
+ 1875  GIT_SSL_NO_VERIFY=true git checkout develop/18 && git pull && git merge --no-ff remotes/origin/feature/18/metadata-filter
+ 1876  GIT_SSL_NO_VERIFY=true  git pull && git merge --no-ff remotes/origin/feature/18/metadata-filter
+ 1877  git status
+ 1878  GIT_SSL_NO_VERIFY=true  git push origin develop/18
+ 1879  pwd
+ 1880  ./bin/www.sh start development
+ 1881  git status
+ 1882  git branch -a
+ 1883  GIT_NO_SSL_VERIFY=true git checkout master && git pull
+ 1884  GIT_NO_SSL_VERIFY=true git pull origin master
+ 1885  ls
+ 1886  git branch -a
+ 1887  docker ps -a
+ 1888  ./bin/www.sh start development
+ 1889  docker rm $(docker ps -a -q)
+ 1890  docker volume rm $(docker volume ls -q)
+ 1891  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1892  docker ps -a
+ 1893  ./bin/www.sh stop  development -c
+ 1894  docker rm $(docker ps -a -q)
+ 1895  docker volume rm $(docker volume ls -q)
+ 1896  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1897  docker ps -a
+ 1898  ./bin/www.sh start development
+ 1899  ./bin/www.sh stop  development -c
+ 1900  docker rm $(docker ps -a -q)
+ 1901  docker volume rm $(docker volume ls -q)
+ 1902  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1903  ng serve
+ 1904  ng set --global warnings.versionMismatch=false
+ 1905  ng serve
+ 1906  clear
+ 1907  ng serve
+ 1908  $PATH
+ 1909  INT_GEOSERVER_HOME
+ 1910  $INT_GEOSERVER_HOME
+ 1911  echo $PATH
+ 1912  echo $INT_GEOSERVER_HOME
+ 1913  pwd
+ 1914  cd /opt/
+ 1915  pwd
+ 1916  cd /home/prasad/Downloads/segyfiles
+ 1917  pwd
+ 1918  $INT_GEOSERVER_HOME="/home/prasad/Downloads/segyfiles"
+ 1919  $INT_GEOSERVER_HOME=/home/prasad/Downloads/segyfiles/
+ 1920  export INT_GEOSERVER_HOME=/home/prasad/Downloads/segyfiles/
+ 1921  echo $INT_GEOSERVER_HOME
+ 1922  service tomcat8 stop
+ 1923  service tomcat8 start
+ 1924  service tomcat8 status
+ 1925  ./bin/www.sh stop development -c
+ 1926  ./bin/www.sh start development
+ 1927  ./bin/www.sh stop development -c
+ 1928  ./bin/www.sh start development
+ 1929  ./bin/www.sh stop development -c
+ 1930  docker rm $(docker ps -a -q)
+ 1931  docker volume rm $(docker volume ls -q)
+ 1932  docker network rm $(docker network ls | awk '/hornet*/ {print $1}')
+ 1933  ng serve
+ 1934  npm install -g angular-cli
+ 1935  npm install -g angular-cli@latest
+ 1936  npm i -g npm install
+ 1937  npm -v
+ 1938  npm install -g pm2
+ 1939  npm install -g pm2@latest
+ 1940  ls
+ 1941  ng build
+ 1942  npm install -g @angular/cli
+ 1943  ng serve
+ 1944  ng serve --host 0.0.0.0 --port 4201
+ 1945  ng build
+ 1946  npm install
+ 1947  ng build
+ 1948  ls
+ 1949  cd dist/
+ 1950  ls
+ 1951  pm2 start index.html --name "jidoka-ui" -p 4201
+ 1952  pm2 logs jidoka-ui
+ 1953  pm2 -
+ 1954  pm2 show  jidoka-ui
+ 1955  pm2 info  jidoka-ui
+ 1956  pm2 -help
+ 1957  pm2 --help
+ 1958  pm2 web
+ 1959  pm2 kill jidoka-ui
+ 1960  pm2 kill jidoka-ui
+ 1961  pm2 web
+ 1962  pm2 kill 0
+ 1963  pm2 delete 0
+ 1964  pm2 show 1
+ 1965  pm2 kill
+ 1966  pm2 start index.html --name "jidoka-ui" --p 4201
+ 1967  pm2 start index.html --name "jidoka-ui"
+ 1968  pm2 show 0
+ 1969  pm2 logs 0
+ 1970  pm2 kill
+ 1971  pm2 show
+ 1972  pm2 -l
+ 1973  pm2 lsit
+ 1974  pm2 list
+ 1975  http-server
+ 1976  pm2 start http-server --name "jidoka-ui" -- -p 3000 -d false
+ 1977  pm2 show 0
+ 1978  pm2 logs 0
+ 1979  pm2 stop
+ 1980  pm2 stop 0
+ 1981  docker version
+ 1982  docker run --help
+ 1983  docker run -d
+ 1984  docker container --help
+ 1985  docker container update --help
+ 1986  docker container --help
+ 1987  docker --help
+ 1988  docker-compose up
+ 1989  cd ..
+ 1990  ll
+ 1991  cd Docker-MEA5N-App/
+ 1992  ll
+ 1993  cat docker-compose.yml
+ 1994  docker ps
+ 1995  docker image ls
+ 1996  docker container  ls
+ 1997  cls
+ 1998  clear
+ 1999  pm2 show
+ 2000  pm2 ls
+ 2001  pm2 kill
+ 2002  npm start
+ 2003  pm2 kill
+ 2004  npm start
+ 2005  history > terminal_commands_history.txt

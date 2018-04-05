@@ -1,0 +1,59 @@
+<md-content layout="row" layout-xs="column" layout-align="center center">
+	<div  flex="50">
+		<form name="userUpdateForm" ng-submit="UpdateUser();">
+
+			<md-input-container class="md-block" flex-gt-sm>
+				<label for="username">First name &amp; last name</label>
+				<!-- For modern browsers. -->
+				<md-icon for="username">
+					<i class="material-icons">people</i>
+				</md-icon>
+				<input name="username" id="username" tabindex="1" 
+				type="text" ng-model="userData.name"
+				required md-maxlength="10" minlength="4"/>
+
+				<div class="md-messages" ng-messages="userUpdateForm.username.$error" ng-show="userUpdateForm.username.$dirty">
+					<div ng-message="required">This is required!</div>
+					<div ng-message="md-maxlength">That's too long!</div>
+					<div ng-message="minlength">That's too short!</div>
+				</div>
+			</md-input-container>
+
+			<md-input-container class="md-block" flex-gt-sm>
+				<label>Mobile Number</label>
+				<!-- For modern browsers. -->
+				<md-icon>
+					<i class="material-icons">phone</i>
+				</md-icon>
+				<input name="mobileno" tabindex="2" type="text" ng-model="userData.mobileno"
+				md-maxlength="10" minlength="10"/>
+				<div class="md-messages" ng-messages="userUpdateForm.mobileno.$error" ng-show="userUpdateForm.mobileno.$dirty">
+					<div ng-message="required">This is required!</div>
+					<div ng-message="md-maxlength">That's too long!</div>
+					<div ng-message="minlength">That's too short!</div>
+				</div>
+			</md-input-container>
+
+			<md-input-container class="md-block" flex-gt-sm>
+				<label>Address</label>
+				<!-- For modern browsers. -->
+				<md-icon>
+					<i class="material-icons">streetview</i>
+				</md-icon>
+				<input tabindex="3" type="text" ng-model="userData.address">
+			</md-input-container>
+
+			<md-input-container class="md-block" flex-gt-sm>
+				<label>Pincode</label>
+				<!-- For modern browsers. -->
+				<md-icon>
+					<i class="material-icons">fiber_pin</i>
+				</md-icon>
+				<input tabindex="4" type="text" name="pincode" ng-model="userData.pincode">
+			</md-input-container>
+
+			<md-button tabindex="5" ng-disabled="userUpdateForm.$invalid" type="submit" class="md-raised md-primary">Submit</md-button>
+			<md-button tabindex="6" class="md-raised" type="reset">Clear</md-button>
+		</form>
+	</div>
+</md-content>
